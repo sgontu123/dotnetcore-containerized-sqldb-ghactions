@@ -9,13 +9,13 @@
       "value": "acrtodosample"
     },
     "sqlServerName": {
-      "value": "sql-todo-sample"
+      "value": "sqlgontu-todo-sample"
     },
     "dbAdminLogin": {
       "value": "dbusradm"
     },
     "dbName": {
-      "value": "sqldb-todo"
+      "value": "sqldbgontu-todo"
     }
   }
 }
