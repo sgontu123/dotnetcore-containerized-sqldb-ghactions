@@ -3,16 +3,16 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "webAppName": {
-      "value": "app-todo-sample"
+      "value": "appgontu-todo-sample"
     },
     "containerRegistryName": {
-      "value": "acrtodosample"
+      "value": "acrtodogontusample"
     },
     "sqlServerName": {
       "value": "sqlgontu-todo-sample"
     },
     "dbAdminLogin": {
-      "value": "dbusradm"
+      "value": "dbadminlogin"
     },
     "dbName": {
       "value": "sqldbgontu-todo"
