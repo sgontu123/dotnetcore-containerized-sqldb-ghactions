@@ -17,12 +17,13 @@ on:
 # For detailed sample explanation: https://github.com/Azure-Samples/dotnetcore-containerized-sqldb-ghactions/blob/main/README.md
 
 env:
-  AZURE_RESOURCE_GROUP: rg-todo-sample  # target resource, must match the {resource-group-name} you setup in the pre-requisties
-  WEB_APP_NAME: app-todo-sample         # set the name for the Web App on Azure
-  CONTAINER_IMAGE_NAME: app-todo-sample # set the name for the container image
+  AZURE_RESOURCE_GROUP: appwithsqldatabase  # target resource, must match the {resource-group-name} you setup in the pre-requisties
+  WEB_APP_NAME: appgontu-todo-sample         # set the name for the Web App on Azure
+  CONTAINER_IMAGE_NAME: appgontu-todo-sample # set the name for the container image
   SQL_CONNECTION_STRING: ${{ secrets.SQL_CONNECTION_STRING }}  # connection string for the Azure SQL database -> must be in the secrets
-  ACR_NAME: acrtodosample               # set the name for the Azure Container Registry
-  ACR_LOGIN_SERVER: acrtodosample.azurecr.io # fqdn for the Azure Container Registry
+  ACR_NAME: acrtodogontusample               # set the name for the Azure Container Registry
+  
+  : acrtodogontusample.azurecr.io # fqdn for the Azure Container Registry
   ACR_USERNAME: ${{ secrets.ACR_USERNAME }} # user name for accessing Azure Container Registry
   ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }} # password for accesing the Azure Container Registry
 
