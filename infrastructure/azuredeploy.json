@@ -115,7 +115,7 @@
     "webAppName": "[parameters('webAppName')]",
     "appServicePlanName": "[concat('plan-', variables('webAppName'))]",
     "containerRegistryName": "[parameters('containerRegistryName')]",
-    "storageAccountName": "[tolower(replace(replace(concat('stggontu', variables('webAppName')), '-',''), '_',''))]",
+    "storageAccountName": "[tolower(replace(replace(concat('x', variables('webAppName')), '-',''), '_',''))]",
     "sqlDatabaseServerlessTiers": [
       "GP_S_Gen5_1",
       "GP_S_Gen5_2",
