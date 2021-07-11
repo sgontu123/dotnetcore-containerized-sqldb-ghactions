@@ -22,8 +22,7 @@ env:
   CONTAINER_IMAGE_NAME: appgontu-todo-sample # set the name for the container image
   SQL_CONNECTION_STRING: ${{ secrets.SQL_CONNECTION_STRING }}  # connection string for the Azure SQL database -> must be in the secrets
   ACR_NAME: acrtodogontusample               # set the name for the Azure Container Registry
-  
-  : acrtodogontusample.azurecr.io # fqdn for the Azure Container Registry
+  ACR_LOGIN_SERVER: acrtodogontusample.azurecr.io # fqdn for the Azure Container Registry
   ACR_USERNAME: ${{ secrets.ACR_USERNAME }} # user name for accessing Azure Container Registry
   ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }} # password for accesing the Azure Container Registry
 
